@@ -12,13 +12,6 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
-    // TODO: $fillableを設定してMass Assignmentエラーを修正する
-    // protected $fillable = [
-    //     'name',
-    //     'email',
-    //     'password',
-    // ];
-
     /**
      * The attributes that should be hidden for serialization.
      *
